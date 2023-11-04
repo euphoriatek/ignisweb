@@ -1,0 +1,119 @@
+.secPhoto{
+    .img-area {
+        max-height: 450px;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+    p{
+        margin-bottom: 25px;
+    }
+}
+.secHiringProcess{
+    .process{
+        padding-top: 50px;
+        .card-wrapper{
+            margin-bottom: 50px;
+            .icon-wrapper{
+                img{
+                    width: 100%;
+                }
+            }
+            h6{
+                font-weight: 500;
+                font-size: 1.25rem;
+                margin: 10px 0;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+.job-wrapper{
+    background-color: background-light-color;
+    .search-field{
+        .form-group{
+            width: 86.5%;
+            .form-control{
+                width: 100%;
+                padding: 21px 20px;
+                border-radius: 5px;
+                margin-right: 30px;
+                &:focus{
+                    box-shadow: none;
+                    border-color: $primary-color;
+                }
+            }
+        }
+    }
+    .jobs{
+        ul{
+            li{
+                margin: 40px 0;
+                border-bottom: none;
+                padding-top: 0;
+                .job-title {
+                    position: relative;
+                    margin-bottom: 10px;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 80px;
+                        height: 1px;
+                        border-bottom: 1px solid $border-color;
+                    }
+                    h5{
+                        color: #808080;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
+                        display: inline-block;
+                        font-size: 1.4rem;
+                        font-weight: 700;
+                    }
+                    .job-count {
+                        float: right;
+                        font-size: 13px;
+                        padding: 3px 15px;
+                        border-radius: 25px;
+                        background-color: #e0e0e0;
+                        margin-right: 0;
+                    }
+                }
+                .content{
+                    .role-list-wrap{
+                        li{
+                            margin: 0 0 15px; 
+                            position: relative;
+                            h6{
+                                color: $text-color;
+                                font-size: 1.25rem;
+                                font-weight: 600;
+                            }
+                            .role-info {
+                                font-size: 0.9rem;
+                                font-weight: 500;
+                                span{
+                                    margin-right: 15px;
+                                }
+                            }
+                            .apply-wrap {
+                                position: absolute;
+                                top: 2px;
+                                right: 0px;
+                                height: 40px;
+                                text-align: right;
+                                .btn{
+                                    padding: 5px 15px;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
